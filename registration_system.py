@@ -58,6 +58,7 @@ def login(credentials: dict[str, str]) -> None:
     else:
         print("Invalid username or password. Please try again.")
 
+
 def main() -> None:
     while True:
         print()
@@ -77,6 +78,7 @@ def main() -> None:
                 break
             case _:
                 print("Invalid choice. Please try again.")
+
 
 if __name__ == "__main__":
     main()
